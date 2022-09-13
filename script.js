@@ -22,8 +22,8 @@ loadSong(songNames[songIndex], songBands[songIndex])
 function loadSong(name, band) {
     console.log(name, band)
     title.innerText = `${name} - ${band}`
-    audio.src = `musics/${band}.mp3`
-    cover.src = `images/${band}.jpg`
+    audio.src = `musicas/${band}.mp3`
+    cover.src = `imagens/${band}.jpg`
 }
 
 // PLAY SONG
